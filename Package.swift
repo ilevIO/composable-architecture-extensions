@@ -40,13 +40,13 @@ let package = Package(
   dependencies: [
     .package(
       name: "swift-composable-architecture",
-      url: "https://github.com/pointfreeco/swift-composable-architecture.git",
-      .upToNextMajor(from: "0.31.0")
+      url: "https://github.com/EduDo-Inc/swift-composable-architecture.git",
+      .branch("debugable")
     ),
     .package(
       name: "swift-composable-environment",
-      url: "https://github.com/tgrapperon/swift-composable-environment.git",
-      .upToNextMinor(from: "0.5.1")
+      url: "https://github.com/ilevIO/swift-composable-environment.git",
+      .branch("debug-dependency")
     ),
     .package(
       name: "combine-extensions",
